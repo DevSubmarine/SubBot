@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harshhh-dev/SubBot.git"
+    "url": "git+https://github.com/DevSubmarine/SubBot.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/harshhh-dev/SubBot/issues"
+    "url": "https://github.com/DevSubmarine/SubBot/issues"
   },
-  "homepage": "https://github.com/harshhh-dev/SubBot#readme"
+  "homepage": "https://github.com/DevSubmarine/SubBot#readme"
 }
