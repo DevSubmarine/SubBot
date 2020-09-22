@@ -1,9 +1,21 @@
 # SubBot
-Bot for the Dev Submarine discord server
 
-### Logging
+The official DevSubmarine Discord Bot!
 
-#### Configuring
+Features lots of funny and silly commands to create a better user experience overall!
+
+![Depedencies](https://img.shields.io/david/dev/DevSubmarine/SubBot?style=for-the-badge)
+
+# IMPORTANT
+- [Contributing]
+- [License]
+
+[Contributing]: https://github.com/DevSubmarine/SubBot/blob/readme/commands/CONTRIBUTING.md
+[License]: https://github.com/DevSubmarine/SubBot/blob/readme/LICENSE
+
+# Logging
+
+## Configuring
 
 The bot is set up to use [Winston](https://github.com/winstonjs/winston) for logs, but has customized configuration loading, allowing changing logging behaviour inside of settings.json file.
 
