@@ -39,4 +39,4 @@ client.on('message', async message => {
     if (commandFile) commandFile.run(client, message, args);
 })
 
-client.login('NzU3OTg5OTYxNTEyMzg2NzMx.X2obKQ.7Bb2zaeTJOwusRJyLsSNNmtq7no');
+client.login('token');
