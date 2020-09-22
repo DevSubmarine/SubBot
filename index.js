@@ -5,8 +5,6 @@ const client = new Client()
 const prefix = '++'
 
 const fs = require('fs')
-
-const fs = require('fs')
 client.commands = new Collection()
 client.aliases = new Collection();
 
@@ -27,13 +25,12 @@ fs.readdir('./commands/', (err, files) => {
 })
 
 client.on('ready', () => {
-    console.log('Bot is updated!')
-    client.user.setActivity('++help for more info.')
+    client.user.setActivity(`Looking after ${client.users.cache.size} submariners!`);
+    console.log('Bot is on.');
 })
 
 client.on('message', async message => {
     if (!message.content.startsWith(prefix)) return
-
     let messageArray = message.content.split(" ");
     let cmd = messageArray[0];
     let args = messageArray.slice(1);
