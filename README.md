@@ -7,9 +7,10 @@ Features lots of funny and silly commands to create a better user experience ove
 
 # IMPORTANT
 - [Contributing]
-- License
+- [License]
 
 [Contributing]: https://github.com/DevSubmarine/SubBot/blob/readme/commands/CONTRIBUTING.md
+[License]: https://github.com/DevSubmarine/SubBot/blob/readme/LICENSE
 
 # Logging
 
