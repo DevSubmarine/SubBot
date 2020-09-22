@@ -3,7 +3,7 @@
 The official DevSubmarine Discord Bot!
 Features lots of funny and silly commands to create a better user experience overall!
 
-https://img.shields.io/discord/441702024715960330
+https://img.shields.io/david/dev/DevSubmarine/SubBot?style=for-the-badge
 
 # IMPORTANT
 -[Contributing]
