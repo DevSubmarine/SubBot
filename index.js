@@ -41,4 +41,38 @@ client.on('message', async message => {
     if(commandfile) commandfile.run(client,message,args)
 })
 
+client.on('messageUpdate', (oldMessage, newMessage) => {
+    if (!oldMessage.guild) return;
+
+    const oldMessageMention = oldMessage.mentions.members.first()
+    const newMessageMention = newMessage.mentions.members.first()
+
+    if (oldMessageMention && !newMessageMention && oldMessage.author.id !== oldMessageMention.id) {
+        let embed = new MessageEmbed()
+            .setColor('#ff6a6a')
+            .setTitle("Ghost ping detected!")
+            .addField('**Author**', oldMessage.author)
+            .addField("**Origional Message**", oldMessage, true)
+            .addField("**New Message**", newMessage, true)
+            .addField('**Type**', 'Sender sent a message. Then proceeded to edit the ping out of the message.')
+            .setTimestamp();
+        oldMessage.channel.send(embed)
+    }
+})
+
+client.on('messageDelete', message => {
+    if (!message.guild) return;
+
+    if (message.mentions.members.first() && message.mentions.members.first().id != message.author.id) {
+        let embed = new MessageEmbed()
+            .setColor('#ff6a6a')
+            .setTitle("Ghost ping detected!")
+            .addField('**Sender**', message.author)
+            .addField("**Message**", message.content)
+            .addField('**Type**', 'Sender sent a message, and then proceeded to delete it thereafter.')
+            .setTimestamp();
+        message.channel.send(embed)
+    }
+})
+
 client.login('token');
