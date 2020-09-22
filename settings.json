@@ -1,0 +1,22 @@
+{
+  "Logging": {
+    "level": "info",
+    "silent": false,
+    "exitOnError": true,
+    "transports": [
+      {
+        "TransportType": "Console",
+        "level": "verbose",
+        "handleExceptions": true
+      },
+      {
+        "TransportType": "File",
+        "filename": "logs.log",
+        "maxsize": 5242880,
+        "maxFiles": 3,
+        "tailable": true,
+        "handleExceptions": true
+      }
+    ]
+  }
+}
