@@ -4,9 +4,12 @@
   "description": "Bot for the Dev Submarine discord server",
   "main": "index.js",
   "dependencies": {
+    "covidapi": "^0.5.0",
     "datadog-winston": "^1.0.1",
     "discord.js": "^12.3.1",
     "fs": "0.0.1-security",
+    "google-translate-api": "^2.3.0",
+    "moment": "^2.29.0",
     "node-fetch": "^2.6.1",
     "weather-js": "^2.0.0",
     "winston": "^3.2.1"
