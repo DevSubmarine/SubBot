@@ -4,9 +4,9 @@
   "description": "Bot for the Dev Submarine discord server",
   "main": "index.js",
   "dependencies": {
+    "datadog-winston": "^1.0.1",
     "discord.js": "^12.3.1",
     "fs": "0.0.1-security",
-    "datadog-winston": "^1.0.1",
     "winston": "^3.2.1"
   },
   "devDependencies": {},
