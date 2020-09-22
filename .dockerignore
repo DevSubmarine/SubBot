@@ -1,0 +1,22 @@
+# node crap
+node_modules
+npm-debug.log
+
+# example config
+settings.example.json
+
+# running on windows helper
+run.bat
+
+# VS stuff
+*.sln
+*.nsproj*
+.vs/
+
+# git stuff
+.git*
+LICENSE
+README.md
+
+# all logs
+**/*.log
