@@ -9,9 +9,9 @@ Features lots of funny and silly commands to create a better user experience ove
 - Contributing
 - License
 
-### Logging
+# Logging
 
-#### Configuring
+## Configuring
 
 The bot is set up to use [Winston](https://github.com/winstonjs/winston) for logs, but has customized configuration loading, allowing changing logging behaviour inside of settings.json file.
 
