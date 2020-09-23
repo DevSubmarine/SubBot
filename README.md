@@ -11,7 +11,7 @@ Features lots of funny and silly commands to create a better user experience ove
 - [License]
 
 [Contributing]: https://github.com/DevSubmarine/SubBot/blob/master/commands/CONTRIBUTING.md
-[License]: https://github.com/DevSubmarine/SubBot/blob/readme/LICENSE
+[License]: https://github.com/DevSubmarine/SubBot/blob/master/LICENSE
 
 # Logging
 
