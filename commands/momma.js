@@ -15,7 +15,7 @@ module.exports.run = async (client, message, args) => {
           JSON.parse(res.text);
         }
         catch (e) {
-          return message.reply('the API returned an unconventional response.');
+          return message.reply('the API is fucking breaking lmao someone help');
         }
         const joke = JSON.parse(res.text);
         message.channel.send(joke.joke);

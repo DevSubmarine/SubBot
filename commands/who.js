@@ -38,7 +38,7 @@ module.exports.run = async (client, message, args) => {
       'The people who can spell pneumonoultramicroscopicsilicovolcanoconiosis correctly.',
       'Bustin Jieber.',
       'A game developer.',
-      'Issac Newton',
+      'Isaac Newton',
       ];
       let index = (Math.floor(Math.random() * Math.floor(rand.length)));
       message.channel.send(rand[index]);

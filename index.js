@@ -1,4 +1,17 @@
-const {Client, Collection, MessageEmbed} = require('discord.js')
+var config = require('./settings.json');
+var log = require('./logging.js').configureLogging(config.Logging);
+
+process.on('uncaughtException', function (error) {
+    try {
+        log.error(error);
+    }
+    catch (error) {
+        console.error(error);
+    }
+});
+log.verbose('Bot initializing');
+
+const { Client, Collection, MessageEmbed } = require('discord.js')
 
 const client = new Client()
 
@@ -10,11 +23,11 @@ client.aliases = new Collection();
 
 fs.readdir("./commands/", (err, files) => {
 
-    if(err) console.log(err)
+    if(err) log.error(err)
 
     let jsfile = files.filter(f => f.split(".").pop() === "js") 
     if(jsfile.length <= 0) {
-         return console.log("[LOGS] Couldn't Find Commands!");
+         return log.warn("Couldn't Find Commands!");
     }
 
     jsfile.forEach((f, i) => {
@@ -28,7 +41,7 @@ fs.readdir("./commands/", (err, files) => {
 
 client.on('ready', () => {
     client.user.setActivity(`Looking after ${client.users.cache.size} submariners!`);
-    console.log('Bot is on.');
+    log.info('Bot is on.');
 })
 
 client.on('message', async message => {

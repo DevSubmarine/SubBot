@@ -10,6 +10,6 @@ module.exports.run = async (client, message, args) => {
    else {
        let search = args.join('+');
 
-       message.channel.send(`Possibly find the answer to your question and learn what the internet is and how to use it at <https://lmgtfy.app/?q=${search}>`)
+       message.channel.send(`Possibly find the answer to your question at <https://lmgtfy.app/?q=${search}>`)
    }
 }
