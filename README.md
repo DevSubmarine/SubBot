@@ -4,7 +4,7 @@ The official DevSubmarine Discord Bot!
 
 Features lots of funny and silly commands to create a better user experience overall!
 
-![Depedencies](https://img.shields.io/david/dev/DevSubmarine/SubBot?style=for-the-badge)
+![Depedencies](https://img.shields.io/david/dev/DevSubmarine/SubBot?style=for-the-badge) [![codebeat badge](https://codebeat.co/badges/c2ec8ac7-df99-47dd-a0be-fea15a881dae)](https://codebeat.co/projects/github-com-devsubmarine-subbot-dev)
 
 # IMPORTANT
 - [Contributing]
