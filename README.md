@@ -4,14 +4,14 @@ The official DevSubmarine Discord Bot!
 
 Features lots of funny and silly commands to create a better user experience overall!
 
-![Depedencies](https://img.shields.io/david/dev/DevSubmarine/SubBot?style=for-the-badge)
+![Depedencies](https://img.shields.io/david/dev/DevSubmarine/SubBot?style=for-the-badge) [![codebeat badge](https://codebeat.co/badges/c2ec8ac7-df99-47dd-a0be-fea15a881dae)](https://codebeat.co/projects/github-com-devsubmarine-subbot-dev)
 
 # IMPORTANT
 - [Contributing]
 - [License]
 
-[Contributing]: https://github.com/DevSubmarine/SubBot/blob/readme/commands/CONTRIBUTING.md
-[License]: https://github.com/DevSubmarine/SubBot/blob/readme/LICENSE
+[Contributing]: https://github.com/DevSubmarine/SubBot/blob/master/commands/CONTRIBUTING.md
+[License]: https://github.com/DevSubmarine/SubBot/blob/master/LICENSE
 
 # Logging
 
