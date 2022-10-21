@@ -1,5 +1,7 @@
 # SubBot
 
+> This repository is now obsolete and not maintained, in favour of main [DevSubmarine Discord Bot](https://github.com/DevSubmarine/DiscordBot).
+
 The official DevSubmarine Discord Bot!
 
 Features lots of funny and silly commands to create a better user experience overall!
